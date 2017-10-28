@@ -301,18 +301,19 @@ h1, h2, h3, h4, h5, h6 {
 
 #home h1 {
   position: absolute;
-  top: 400px;
-  left: 800px;
+  top: 200px;
+  left: 550px;
   width: 100%;
 }
 
 #home h1 span {
+  position: absolute;
   color: white;
-  font: bold 40px/30px Sans-Serif;
+  font: bold 30px/25px Sans-Serif;
   letter-spacing: -1px;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
-  padding: 10px;
+  padding: 20px;
 }
 
 #home h2 {
@@ -379,55 +380,9 @@ h1, h2, h3, h4, h5, h6 {
 	top: 0;
 }
 
-
-#about-us h4 {
-	color: #909090;
-	margin-bottom: 50px;
-	margin-top: -5px;
-	text-transform: capitalize;
-}
-
 #about-us p {
 	font-weight:300;
 	font-size:16px
-}
-
-.about-us .col-sm-6 {
-	margin-top:50px
-}
-
-.about-us h3 {
-	font-size: 20px;
-	margin-bottom: 18px;
-	text-transform: uppercase;
-}
-
-.about-us .tab-content {
-	background:#FFFFFF;
-	border-bottom: 1px solid #DDDDDD;
-	border-left: 1px solid #DDDDDD;
-	border-right: 1px solid #DDDDDD;
-	padding: 25px;
-}
-
-.about-us .nav-tabs li a {
-	border-top:2px solid #f6f6f6;
-	color:#EE0000
-}
-
-.about-us .nav-tabs li.active a, 
-.about-us .nav-tabs li.active a:hover, 
-.about-us .nav-tabs li.active a:focus {
-	border-radius: 0;
-	border-top: 2px solid #EE0000;
-	color: #333333;
-}
-
-.about-us .tab-content 
-.pull-left.media-object {
-	background-color: #F6F6F6;
-	margin-right: 20px;
-	padding: 5px;
 }
 
 /*====================
@@ -487,9 +442,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel {
-	padding-left: 0px;
 }
 
+.carousel-inner img {
+	margin: 0 auto;
+}
 /*====================
 ======Contact CSS=====
 ======================*/
