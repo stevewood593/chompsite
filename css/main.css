@@ -1,16 +1,10 @@
-/*+++++++++++++++++++++
+/*
+====================================
+Chompers Website by Steve Wood
+Contains code from Himu by Mostafizur
+(http://mostafiz.me/demo/himu/)
 =====================================
- Template Name : Himu
- Author Name : Mostafizur Rahman
- Author URI : http://mostafiz.me/
- Template URI :http://mostafiz.me/demo/himu/
- Version : 1.1
-===============================
-+++++++++++++++++++*/
-
-
-
-
+*/
 
 /*
 ====================================
@@ -19,9 +13,12 @@
 	2. Header
 	3. Main Slider
 	4. About Us
-	5. Contact
-	6. Footer
-	7. Isotope
+	5. Menu
+	6. Events
+	7. Photos
+	8. Contact
+	9. Footer
+	10. Isotope
 -------------------------------------
 =====================================
 */
@@ -301,8 +298,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #home h1 {
   position: absolute;
-  top: 200px;
-  left: 550px;
+  top: 490px;
+  left: 1250px;
   width: 100%;
 }
 
